@@ -5,9 +5,10 @@ SQL Injection present in Gnuteca v.3.8
 ------------------------------------------
 
 [Additional Information]
-Path Traversal in GNUTeca v.3.8. The parameter "file", located at "file.php?folder=/&file=" is vulnerable to Path Traversal attacks.
+Unauthenticated users can exploit:
+  - Path Traversal in GNUTeca v.3.8. The parameter "file", located at "file.php?folder=/&file=" is vulnerable to Path Traversal attacks.
 
-SQL Injection in GNUTeca v.3.8. The parameter “exemplaryStatusId”, located at “/index.php?module=gnuteca3&action=main:search:simpleSearch" is vulnerable to SQL Injection attacks.
+  - SQL Injection in GNUTeca v.3.8. The parameter “exemplaryStatusId”, located at “/index.php?module=gnuteca3&action=main:search:simpleSearch" is vulnerable to SQL Injection attacks.
 
 ------------------------------------------
 
